@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Date</title>
+    <link href="index.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <script>
+        window.onload = showInfo;
+
+        function strToJson(str){
+            return JSON.parse(str);
+        }
+        function showInfo() {
+            let data = localStorage.getItem("data");
+            data = data.split("\n");
+            let data1, data2,dataName=[],dataMsg = [];
+            for(let i = 0; i < data.length; i++){
+               if (data[i].length > 13){
+                   data1 = data[i].substr(3,9);
+                   data2 = data[i].substr(12,data[i].length);
+                  // console.log(strToJson(data2));
+                  // console.log(data1);
+                  data2 =   strToJson(data2);
+                  dataMsg[i] = data2.msg;
+                //   console.log(dataMsg[i]);
+                   $.ajax({
+                       url: "Http://statistics.pandadastudio.com/player/simpleInfo",
+                       data: {
+                           uid: data1
+                       },
+                       async:false,
+                       type: "GET",
+                       dataType: "json",
+                       success: function (datat) {
+                           console.log(datat)
+                           if (datat.code === 0) {
+                               dataName[i] = datat.data.name;
+                           } else {
+                               dataName[i] = datat.msg;
+                           }
+
+                       }
+                   });
+               }
+            }
+
+            let v = document.getElementById("showTrTh");
+            v.innerHTML = "";
+            console.log(dataName)
+            console.log(dataMsg)
+            for(let i = 0; i < dataMsg.length; i++){
+                v.innerHTML += "<tr >\n" +
+                    "<td style=\"padding-left: 15px\">"+ dataName[i] +"</td>\n" +
+                    "<td>" + dataMsg[i]+ "</td>\n" +
+                    "</tr>";
+
+
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">后台数据</a>
+        </div>
+    </div>
+</nav>
+
+
+<div class="show">
+    <div style="font-size: large;  padding-bottom: 5px  ">
+        最近的兑换码
+    </div>
+    <div class="lined"></div>
+
+    <table class="table table-condensed" style="margin-bottom: 0">
+        <thead>
+        <tr>
+            <th style="padding-left: 15px">玩家</th>
+            <th>信息</th>
+        </tr>
+        </thead>
+        <tbody id="showTrTh">
+        </tbody>
+    </table>
+
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-footer" style="text-align: center">
+        <span>  Firefly</span>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=531109985&site=qq&menu=yes">QQ</a>
+    </div>
+</div>
+</body>
+</html>

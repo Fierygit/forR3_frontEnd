@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>忍3自动兑换所有兑换码</title>
+    <link href="index.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <script src="index.js"></script>
+</head>
+
+
+<body>
+
+<div class="table">
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">忍3必须死</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="show">
+        <div style="font-size: large;  padding-bottom: 5px  ">
+            兑换码
+        </div>
+        <div class="lines"></div>
+        <div class="showMsg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            只要一位玩家在此站兑换，全站玩家即可自动兑换，如未加入，请到下一标签加入此站。
+        </div>
+
+
+
+       <div id="hf">
+
+        </div>
+
+
+        <div class="col-lg-6" style="margin-top: 20px">
+            <div class="input-group">
+                <input style="text-align: center;" id="input1" type="text" class="form-control">
+                <span class="input-group-btn">
+						<button class="btn btn-default" type="button" onclick="sendMsg()">
+							兑换
+						</button>
+					</span>
+            </div><!-- /input-group -->
+        </div>
+    </div>
+
+
+    <div class="show">
+        <div style="font-size: large;  padding-bottom: 5px  ">
+            最近的兑换码
+        </div>
+        <div class="lined"></div>
+
+        <table class="table table-condensed" style="margin-bottom: 0">
+            <thead>
+            <tr>
+                <th style="padding-left: 15px">时间</th>
+                <th>兑换码</th>
+            </tr>
+            </thead>
+
+            <tbody id = "showTrTh">
+            </tbody>
+        </table>
+
+    </div>
+
+
+    <div class="show">
+        <div style="font-size: large;  padding-bottom: 5px  ">
+            添加UID
+        </div>
+        <div class="line1"></div>
+        <div class="showMsg1">
+            UID为个人信息界面9位数字ID
+        </div>
+        <div class="showMsg1" style="padding-top: 0px">
+            Firefly发现有兑换码就会帮大家兑换！
+        </div>
+        <div id="succesMsg"></div>
+        <div class="col-lg-6" style="margin-top: 20px">
+            <div class="input-group">
+                <input style="text-align: center;" id="input2" type="text" class="form-control" oninput="getMsg()">
+                <span class="input-group-btn">
+						<button class="btn btn-default" type="button" onclick="addOne()">
+							添加
+						</button>
+					</span>
+            </div><!-- /input-group -->
+        </div>
+    </div>
+
+    <!--    -->
+    <div class="showImg">
+        <img onclick="img()" src="image/linglove.jpg" alt="Cinque Terre" style="width: 100%;  height: auto">
+        <div class="line2"></div>
+        <div>送颗❤给你！</div>
+    </div>
+
+
+    <!--    按顺序展示-->
+    <div id="imgTable"></div>
+
+</div>
+
+
+<div class="panel panel-default">
+    <div class="panel-footer" style="text-align: center">
+        <span>  Firefly</span>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=531109985&site=qq&menu=yes">QQ</a>
+    </div>
+</div>
+
+</body>
+</html>

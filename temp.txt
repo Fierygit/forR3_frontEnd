@@ -1,0 +1,104 @@
+ <div class="showImg">
+        <img src="image/linglove.jpg" alt="Cinque Terre" style="width: 100%;  height: auto">
+
+        <div class="line2"></div>
+
+        <div>送颗❤给你！</div>
+
+    </div>
+
+    <div class="showImg">
+        <img src="image/ling2.webp" style="width: 100%;  height: auto" alt="Cinque Terre">
+        <div class="line3"></div>
+
+        <div>琳儿胸大还可爱吗？😕</div>
+    </div>
+
+    <div class="showImg">
+        <img src="image/ling5.jpg" style="width: 100%;  height: auto" alt="Cinque Terre">
+        <div class="line2"></div>
+
+        <div>你在看哪儿？是及腰的长发吗？</div>
+    </div>
+
+    <div class="showImg">
+        <img src="image/jiao.jpg" style="width: 100%;  height: auto" alt="Cinque Terre">
+        <div class="line3"></div>
+
+        <div>小娇就一张</div>
+    </div>
+
+    <div class="showImg">
+        <img src="image/cang.jpg" style="width: 100%;  height: auto" alt="Cinque Terre">
+        <div class="line3"></div>
+
+        <div>向魔鬼道歉是没有用的！</div>
+    </div>
+
+
+    <div class="showImg">
+        <img src="image/ling7.png" style="width: 100%;  height: auto" alt="Cinque Terre">
+        <div class="line2"></div>
+
+        <div>阳光、沙滩、樱花、还有我~！</div>
+    </div>
+
+    <div class="showImg">
+        <img src="image/ying.png" style="width: 100%;  height: auto" alt="Cinque Terre">
+        <div class="line3"></div>
+
+        <div>花里胡哨</div>
+    </div>
+
+
+    <div class="showImg">
+        <img src="image/cang1.png" style="width: 100%;  height: auto" alt="Cinque Terre">
+        <div class="line3"></div>
+
+        <div>不会再让伙伴牺牲！！！</div>
+    </div>
+
+
+    <div class="showImg">
+        <img src="image/ling6.jpeg" style="width: 100%;  height: auto" alt="Cinque Terre">
+        <div class="line3"></div>
+
+        <div>我眼里有光！</div>
+    </div>
+
+    <div class="showImg">
+        <img src="image/ling1.jpg" style="width: 100%;  height: auto" alt="Cinque Terre">
+        <div class="line3"></div>
+
+        <div>阳光、沙滩、没有你！</div>
+    </div>
+
+
+    <div class="showImg">
+        <img src="image/ling3.jpg" style="width: 100%;  height: auto" alt="Cinque Terre">
+        <div class="line3"></div>
+
+        <div>选一个吧！ 我全都要</div>
+    </div>
+
+
+    <div class="showImg">
+        <img src="image/bai.jpeg" style="width: 100%;  height: auto" alt="Cinque Terre">
+        <div class="line3"></div>
+
+        <div>一只可恶的小白</div>
+    </div>
+
+    <div class="showImg">
+        <img src="image/lingLast.png" style="width: 100%;  height: auto" alt="Cinque Terre">
+        <div class="line3"></div>
+
+        <div>好像看过这张了，跳过吧！</div>
+    </div>
+
+    <div class="showImg">
+        <img src="image/last.png" style="width: 100%;  height: auto" alt="Cinque Terre">
+        <div class="line3"></div>
+
+        <div>图片展示经得小白允许</div>
+    </div>

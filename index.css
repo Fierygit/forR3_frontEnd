@@ -1,0 +1,150 @@
+.table{
+
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.input1{
+
+    margin-top: 10px;
+}
+
+.show{
+    margin: 10px auto;
+    width: 94%;
+    padding: 5px 15px 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+}
+.showImg{
+    margin: 10px auto;
+    width: 94%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+
+}
+.showMsg{
+    text-align: left;
+    line-height: 22px;
+    width: 100%;
+    padding: 15px 15px 5px 15px;
+
+}
+.showMsg1{
+    text-align: center;
+    line-height: 22px;
+    width: 100%;
+    padding: 15px 15px 5px 15px;
+
+}
+
+.lines{
+    border:  1px #7cf5ff dashed;
+    width: 98% ;
+    margin: 0 auto;
+}
+.line1{
+    border:  1px #ff8e4d dashed;
+    width: 98% ;
+    margin: 0 auto;
+}
+.lined{
+    border:  1px #b3ffc2 dashed;
+    width: 98% ;
+    margin: 0 auto;
+}
+
+.navbar-header{
+    -webkit-display:flex;
+    display:flex;
+    -webkit-align-items:center;
+    align-items:center;
+    -webkit-justify-content:center;
+    justify-content:center;
+
+}
+.navbar-default .navbar-brand{
+    float: none;
+    margin: 0 auto;
+}
+
+
+tbody tr td{
+    padding-left: 15px;
+    text-align: left;
+}
+
+.line2{
+
+    border:  1px #bd60ff dashed;
+    width: 98% ;
+    margin: 10px auto;
+}
+.line3{
+    border:  1px #79ff37 dashed;
+    width: 98% ;
+    margin: 10px auto;
+}
+.line4{
+
+    border:  1px #ffa8f0 dashed;
+    width: 98% ;
+    margin: 10px auto;
+}
+.line5{
+    border:  1px #5affc3 dashed;
+    width: 98% ;
+    margin: 10px auto;
+}
+.line6{
+    border:  1px #496bff dashed;
+    width: 98% ;
+    margin: 10px auto;
+}
+.line7{
+    border:  1px #d4ff5e dashed;
+    width: 98% ;
+    margin: 10px auto;
+}
+.line8{
+
+    border:  1px #ff9f65 dashed;
+    width: 98% ;
+    margin: 10px auto;
+}
+.line9{
+    border:  1px #42ff83 dashed;
+    width: 98% ;
+    margin: 10px auto;
+}
+.line10{
+
+    border:  1px #4dffe4 dashed;
+    width: 98% ;
+    margin: 10px auto;
+}
+.line11{
+    border:  1px #ff3e54 dashed;
+    width: 98% ;
+    margin: 10px auto;
+}
+.line12{
+
+    border:  1px #ff914b dashed;
+    width: 98% ;
+    margin: 10px auto;
+}
+.line13{
+    border:  1px #a6c5ff dashed;
+    width: 98% ;
+    margin: 10px auto;
+}
